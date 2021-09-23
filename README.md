@@ -13,7 +13,7 @@ used <i>-Dspring.config.location=environments/sit/  to provide the environment s
 
 <B>To Test the Functionality - Follow API Endpoints</B>
 
-1. To check the Health of Application
+1. To check the Health of Application<br />
 <B>curl -i -X GET localhost:9090/actuator/health</B>
 
 1. To store the log in DB from Logfile.txt file <br />
