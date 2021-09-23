@@ -1,10 +1,10 @@
 # CS-Assignment
 CS Interview Process Coding Round Assignment - Spring Boot Project
 
-<B>Build + Run</B>
+<B>Build + Run - USE JAVA 1.8 VERSION TO INSTALL / CREATE THE JAR FILE</B>
 
 1. This project uses maven for packaging an executable jar archive. After successfull execution, jar can be found in the /target folder
-<B>mvn clean package</B>
+<B>mvn clean package OR mvn clean install</B>
 
 2. To Run the Jar Open Git bash OR CMD from the Project path <folder where pom.xml is locates> and ececute the below command
 <B>java -jar -Dspring.config.location=environments/sit/ target/CS-Event-Management-1.0-SNAPSHOT.jar</B>
